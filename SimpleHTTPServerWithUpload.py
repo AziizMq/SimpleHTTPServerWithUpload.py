@@ -1,19 +1,6 @@
 #!/usr/env python3
 ########################################################################
 #
-#  Simple HTTP server that  supports file upload  for moving data around
-#  between boxen on HTB. Based on a gist by bones7456, but mangled by me 
-#  as I've tried  (badly) to port it to Python 3, code golf it, and make
-#  It a  little more  robust. I was also able to  strip out a lot of the 
-#  code trivially  because Python3 SimpleHTTPServer is  a thing, and the
-#  cgi module handles multipart data nicely.
-#
-#  Lifted from: https://gist.github.com/UniIsland/3346170
-#
-#  Important to note that this tool is quick and dirty and is a good way
-#  to get yourself  popped if you're leaving it  running out in the real
-#  world. 
-#
 #  Run it on your attack box from the folder that contains your tools.
 #
 #  From the target machine:
