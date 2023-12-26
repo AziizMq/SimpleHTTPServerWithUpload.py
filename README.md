@@ -1,3 +1,5 @@
+# SimpleHTTPServerWithUpload.py
+
 Simple HTTP server that  supports file upload  for moving data around
 between boxen on HTB. Based on a gist by bones7456, but mangled by me 
 as I've tried  (badly) to port it to Python 3, code golf it, and make
